@@ -3,30 +3,95 @@
 !! =================================== !
 
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+:0 ! small
+  
+  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+:0 ! capital
 
- %>:0 ;
+ ʼ ! Modifier Letter Apostrophe for glottal stop
+
+ %{R%}
+
+ %{E%}
+
+ %{um%}:0 ! For to trigger the -um- infix
+
+ %{in%}:0 ! For to trigger the -in- infix
+
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+ #7     ! #
+
+! Morpheme boundaries:
+ «  ! Derivational prefix
+ »  ! Derivational suffix
+ %< ! Inflectional prefx
+ %> ! Inflectional suffix
+ #  ! Word boundary for both lexicalised and dynamic compounds
+ %^ ! (exceptional) soft hyphenation point
+ ∑ ! Used in front of # for dynamic compounds.
+
+ ! Escaped chars
+ %  
+
+! End of alphabet definitions
+
+;
 
 Sets
 
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
- 
+  Vow = a e i o u 
+        A E I O U ;
+	 
+  Cns = b c d f g h j k l m n ñ p q r s t v w x y z 
+        B C D F G H J K L M N Ñ P Q R S T V W X Y Z ;
+
+;
+
+! ============ !
+! Rule section !
+! ============ !
+
+
+
 Rules
 
-"Deleting stem-final s in s genitive"
- s:0 <=> Vow s %>: _ ;
+"R realization as Consonant"
+%{R%}:CC <=> _ ( 0:? 0:? ) %{E%}: CC ; where CC in Cns ;
 
-!!€ primus%>s
-!!€ primus00
+"R deletion"
+%{R%}:0 <=> _ ( 0:? 0:? ) %{E%}: VV ; where VV in Vow ;
 
-!!€grís%>s
-!!€grís00
+"E realization as Vowel"
+%{E%}:VV <=> ( 0:u 0:m ) _ (C:) VV ; where VV in Vow ;
 
-!!$grís%>s
-!!$grís0s
+"U insertion in -um- infix"
+0:u <=> .#. ?: _ (0:m) \0:* %{um%}:0 ;
+!This Rule and the following rules may require a change of contexts
+! essentially, it says that there are no prefixes before an infix, which is not true for Cebuano
+! See how this is in Tagalog and Tagabawa. Jaska 2024-07-04
+
+"M insertion in -um- infix"
+0:m <=> .#. ?: 0:u _ \0:* %{um%}:0 ;
+
+"I insertion in -in- infix"
+0:i <=> .#. ?: _ (0:n) \0:* %{in%}:0 ;
+
+"N insertion in -in- infix"
+0:n <=> .#. ?: 0:i _ \0:* %{in%}:0 ;
+
+"Glottal stop loss before linker"
+ʼ:0 <=> [ Vow | Vow y ]  _ %> n g ;
+
+!!€ amaʼ>ng
+!!€ ama0>ng
+!!$ amaʼ>ng
+!!$ amaʼ>ng
+
+
+
+;
+
