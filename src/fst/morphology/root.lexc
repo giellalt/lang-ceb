@@ -1,0 +1,207 @@
+! Divvun & Giellatekno - open source grammars for Cebuano language
+! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ========================================================================== !
+! !!            !!!Cebuano morphological analyser                      !
+! ========================================================================== !
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Cebuano LANGUAGE.
+ 
+
+Multichar_Symbols  !!≈ # Definitions for @CODE@
+
+!! ## Analysis symbols
+!  ----------------
+!! The morphological analyses of wordforms for the Cebuano
+!! language are presented in this system in terms of the following symbols.
+!! (It is highly suggested to follow existing standards when adding new tags).
+
+!! The parts-of-speech are:
++V      !!≈ * **@CODE@** -  Verb
++N      !!≈ * **@CODE@** -  Noun
++A    !!≈ * **@CODE@** -  Adjective
++Adv    !!≈ * **@CODE@** -  Adverb
++Pr    !!≈ * **@CODE@** -  Preposition
++Pron    !!≈ * **@CODE@** -  Pronoun
++CC    !!≈ * **@CODE@** -  Conjunction
++CS    !!≈ * **@CODE@** -  Subjunction
++Pcle    !!≈ * **@CODE@** -  Particle
++Lig    !!≈ * **@CODE@** -  Ligature
++Num !!≈ * **@CODE@** - Numeral
+
+!!! Verb
+! Aspect
+@U.Asp.Comp@
+@U.Asp.Cont@
+@U.Asp.Prog@
+@U.Asp.Imp@
+@U.Asp.Rcmp@
+@U.Asp.Inf@
++Comp !!≈ * **@CODE@** - 
++Cont !!≈ * **@CODE@** - 
++Prog !!≈ * **@CODE@** - 
++Rcmp !!≈ * **@CODE@** - 
++Inf !!≈ * **@CODE@** - 
++Imp !!≈ * **@CODE@** - 
++1p ! TODO figure out where to go
+%{um%} ! -um- infix trigger
+%{in%} ! -in- infix trigger
+%{R%}
+%{E%}
+
+! Noun Ligatures
+@U.Lig.V@
+@U.Lig.N@
+@U.Lig.C@
++Lig
+
+! Trigger
++Act1 +Act2 +Act3 +Act4
++Obj1 +Obj2 +Obj3
++Loc
++Ben
++Ins
++Rsn
++Dir !!≈ * **@CODE@** - 
++Rcp
+
+! Mood
++Ind !!≈ * **@CODE@** - Indicative
++Dis !!≈ * **@CODE@** - Distributive
++Soc !!≈ * **@CODE@** - Social
++Pot !!≈ * **@CODE@** - Potential
+
+!!! Case particle inflections
++Comm +Prop     ! Common or proper nouns
++Sg +Pl         ! Number
+ ! Case
++Dir !!≈ * **@CODE@** - Direct
++Idr !!≈ * **@CODE@** - Indirect
++Obl !!≈ * **@CODE@** - Oblique
+
+!! ## Tags distinguishing different versions of the same lemma (before POS)
++v1   !!≈ * @CODE@
++v2   !!≈ * @CODE@
++v3   !!≈ * @CODE@
++v4   !!≈ * @CODE@
++v5   !!≈ * @CODE@
++v6   !!≈ * @CODE@
++v7   !!≈ * @CODE@
++v8   !!≈ * @CODE@
++v9   !!≈ * @CODE@
++v10   !!≈ * @CODE@
+
+
+!!! Punctuation tags
++CLB
++Err/Orth
++LEFT
++PUNCT
++RIGHT
+
+
+! Abbreviated words are classified with:
+ +ABBR +ACR 
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+!! Special symbols are classified with:
++CLB +PUNCT +LEFT +RIGHT
+!! The verbs are syntactically split according to transitivity:
+ +TV +IV
+!! Special multiword units are analysed with:
+ +Multi
+!! Non-dictionary words can be recognised with:
+ +Guess
+
+!! Question and Focus particles:
+ +Qst +Foc
+
+
+!! Semantics are classified with
+ +Mal 
+ +Fem 
+ +Sur 
+ +Plc 
+ +Org
+ +Obj
+ +Ani
+ +Hum
+ +Plant
+ +Group
+ +Time 
+ +Txt
+ +Route
+ +Measr 
+ +Wthr
+ +Build 
+ +Edu
+ +Veh
+ +Clth
+
+
+!! Derivations are classified under the morphophonetic form of the suffix, the
+!! source and target part-of-speech.
+ +V→N +V→V +V→A
+ +Der/xxx
+
+
+!! Morphophonology
+!  ---------------
+!! To represent phonologic variations in word forms we use the following
+!! symbols in the lexicon files:
+ {aä} {oö} {uü}
+
+!! And following triggers to control variation
+ {front} {back}
+
+!! ## Flag diacritics
+!! We have manually optimised the structure of our lexicon using following
+!! flag diacritics to restrict morhpological combinatorics - only allow compounds
+!! with verbs if the verb is further derived into a noun again:
+ @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+!! 
+!! For languages that allow compounding, the following flag diacritics are needed
+!! to control position-based compounding restrictions for nominals. Their use is
+!! handled automatically if combined with +CmpN/xxx tags. If not used, they will
+!! do no harm.
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
+!! 
+!! Use the following flag diacritics to control downcasing of derived proper
+!! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+!! these flags. There exists a ready-made regex that will do the actual down-casing
+!! given the proper use of these flags.
+ @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+
+LEXICON Root
+!! The word forms in Cebuano language start from the lexeme roots of basic
+!! word classes, or optionally from prefixes:
+ Nouns       ;
+ verbs_prefixes       ;
+ Adjectives	      ;
+ Interrogatives  ;
+ Numerals	 ;
+ Pronouns    ;
+ Particles    ;
+ Punctuation ;
+ Symbols     ;
+
+! vim: set ft=xfst-lexc:

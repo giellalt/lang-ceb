@@ -1,0 +1,52 @@
+#!/bin/bash
+# @configure_input@
+
+# To run this test script only, do:
+#
+# make check TESTS=generate-adjective-lemmas.sh
+
+# ensure this is proper run from make check or otherwise set up
+if test -z "$srcdir" ; then
+    echo needs to run from make check or set srcdir=.
+    exit 1
+fi
+genscript=$GIELLA_CORE/scripts/generate-lemmas.sh
+if ! test -x "$genscript" ; then
+    echo "missing generator script $genscript"
+    exit 1
+fi
+if test -z "$TOOLKITS" ; then
+    TOOLKITS=hfst
+fi
+
+# This test script will test that all noun lemmas do generate as themselves.
+# Extend as needed, and copy to new files to adapt to other parts of speech.
+# The changes usually needed are:
+#
+# 1. change the reference to the source file (line XX)
+# 2. extend the extract lemmas egrep expression (lines YY)
+# 3. adapt the tag addition and lemma generation instructions (lines ZZ)
+
+###### Variables: #######
+POS=adjectives
+### in ###
+source_file=@abs_srcdir@/../stems/${POS}.lexc
+generator_file=@abs_builddir@/../../generator-gt-norm
+analyser_file=@abs_builddir@/../../analyser-gt-norm
+tags="+A+Pos+Sg+Nom"
+xtags=
+inclusions=
+exclusions=
+
+for tk in $TOOLKITS ; do
+    "$genscript" "$POS" "$source_file" "$generator_file" "$analyser_file" \
+        "$tk" "$tags" "$xtags" "$inclusions" "$exclusions"
+    rv=$?
+    if test $rv = 77 ; then
+        echo skipped
+        exit 77
+    elif test $rv -gt 0 ; then
+        echo failed
+        exit 1
+    fi
+done

@@ -1,0 +1,20 @@
+spellername = "@GLANGUAGE@"
+spellerversion = "@SPELLERVERSION@"
+
+# Name of the speller package in various languages.
+# The default is English + autonym:
+[speller.name]
+en = "@SPELLER_NAME_ENG@"
+ceb = "@SPELLER_NAME_NATIVE@"
+
+# Description of the speller package in various languages.
+# The default is English + autonym:
+[speller.description]
+en = "@SPELLER_DESC_ENG@"
+ceb = "@SPELLER_DESC_NATIVE@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.ceb"
+
+[windows]
+system_product_code = "{REPLACE_WITH_REAL_SYSTEM_PROD_CODE}_is1"
