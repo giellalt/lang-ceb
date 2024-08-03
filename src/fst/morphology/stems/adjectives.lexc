@@ -4,5 +4,17 @@
 
 LEXICON Adjectives
 adjective    Comparisons   ;
+!dako "big"
+!gamay "small"
+
+!Comparative form
+!mas (comparative marker)
+!mas dako "bigger"
+!mas gamay "smaller"
+
+!Superlative form
+!pinaka-
+!pinakadako "biggest"
+!pinakagamay "smallest"
 
 ! vim: set ft=xfst-lexc:
