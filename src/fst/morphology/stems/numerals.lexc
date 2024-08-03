@@ -34,5 +34,7 @@ numeral+Num:numeral    Cases   ;
 !ordinal
 !kina-unhan "first"
 !ikaduha "second" (basically, ika- prefix attached to numbers)
+!ikanapulo "tenth"
+!ikakaluhaan "twenty"
 
 ! vim: set ft=xfst-lexc:
