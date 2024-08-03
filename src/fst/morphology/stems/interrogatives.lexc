@@ -1,15 +1,17 @@
 LEXICON Interrogatives
-ano+Pron+Interr:ano # ;       ! what
-alin+A+Interr:alin # ;      ! which Jaska:20240801: +A vs +Det
-bakit+Pron+Interr:bakit # ;     ! why
-gaano+Adv+Interr:gaano # ;     ! how (extent/degree/quantity)
-ilan+Adv+Interr:ilan # ;      ! how many
-kailan+Adv+Interr:kailan # ;    ! when
+unsa+Pron+Interr:unsa # ;       ! what
+!hain+A+Interr:hain # ;      ! which Jaska:20240801: +A vs +Det
+ngano+Pron+Interr:ngano # ;     ! why
+giunsa+Adv+Interr:giunsa # ;     ! how (extent/degree/quantity)
+pila+Adv+Interr:pila # ;      ! how many
+kanus-a+Adv+Interr:kanus-a # ;    ! when
 kumusta+Adv+Interr:kumusta # ;   ! how <be> (condition/quality)
-magkano+Adv+Interr:magkano # ;   ! how much (price)
-!nakanino+Pron+Interr:kanino # ; ! with whom, in whose possession, at whose place
-nasaan+Pron+Interr:nasaan # ;    ! where <be>, which place(s) <be>
-paano+Adv+Interr:paano # ;     ! how (manner/means)
-saan+Adv+Interr:saan # ;      ! where, which place(s), what
-sino+Pron+Interr:sino # ;      ! whom, which person
-
+tagpila+Adv+Interr:tagpila # ;   ! how much (price)
+!kang kinsa+Pron+Interr:kang kinsa # ; ! with whom, in whose possession, at whose place
+asa+Pron+Interr:asa # ;    ! where <be>, which place(s) <be>
+giunsa+Adv+Interr:giunsa # ;     ! how (manner/means/action done)
+unsaon+Adv+Interr:unsaon # ;     ! how (manner/means/action to be done)
+!asa+Adv+Interr:asa # ;       ! where, which place(s), what
+kinsa+Pron+Interr:kinsa # ;      ! whom, which person
+taga-asa+Pron+Interr:taga-asa # ;  ! where (person's origin)
+hain+Pron+Interr:asa # ;      ! where <be>, which place(s) <be>
