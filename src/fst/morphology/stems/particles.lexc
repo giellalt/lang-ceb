@@ -2,11 +2,11 @@ LEXICON Particles
 !!! Common
 ! Singular
 ang+Pcle+Dir:ang # ; ! Direct
-ng+Pcle+Idr:ng # ; ! Indirect
+og+Pcle+Idr:og # ; ! Indirect
 sa+Pcle+Obl:sa # ; ! Oblique
 ! Plural
 ! angmgá+Pcle:mgá # ; ! Direct
-! ngmgá+Pcle:mgá # ; ! Indirect
+! ogmgá+Pcle:mgá # ; ! Indirect
 ! samgá+Pcle:mgá # ; ! Oblique
 mga+Pcle+Pl:mga # ; ! Pluralizer
 
@@ -14,9 +14,9 @@ mga+Pcle+Pl:mga # ; ! Pluralizer
 ! Singular
 si+Pcle+Dir:si # ; ! Direct
 ni+Pcle+Idr:ni # ; ! Indirect
-kay+Pcle+Obl:kay # ; ! Oblique
+kang+Pcle+Obl:kang # ; ! Oblique
 ! Singular
-sina+Pcle+Dir:sina # ; ! Direct
-nina+Pcle+Idr:nina # ; ! Indirect
-kina+Pcle+Obl:kina # ; ! Oblique
+silá+Pcle+Dir:silá # ; ! Direct
+nilá+Pcle+Idr:nilá # ; ! Indirect
+kanila+Pcle+Obl:kanila # ; ! Oblique
 
