@@ -2,7 +2,37 @@
 !  --------
 !! Numerals in the Cebuano language describe a nuerical quantity.
 
+!cardinal
 LEXICON Numerals
 numeral+Num:numeral    Cases   ;
+!usa "one"
+!duha "two"
+!tulo "three"
+!upat "four"
+!lima "five"
+!unom "six"
+!pito "seven"
+!walo "eight"
+!siyam "nine"
+!napulo "ten" (can also be "pulo")
+!napulo ug usa "eleven" (basically, "napulo ug [1-9]", take note it can be also be "napulog [1-9]")
+!kaluhaan "twenty" (can also be "kawhaan")
+!katloan "thirty" (can also be "katuloan")
+!kap-atan "forty" (can also be "kaupatan")
+!kalim-an "fifty" (can also be "kalimaan")
+!kan-oman "sixty" (can also be "kaunoman")
+!kapitoan "seventy"
+!kawaloan "eighty"
+!kasiyaman "ninety"
+!usa ka gatos "one hundred" (basically, "[0-9] ka gatos", "gatos" is the hundred)
+!usa ka libo "one thousand" (basically, "[0-9] la libo", "libo" is the thousand)
+!napulo ka libo "ten thousand"
+!usa ka milyon "one millon" (basically, "[0-9] ka milyon)
+!usa ka bilyon "one billion" (basically, [0-9] ka bilyon)
+
+
+!ordinal
+!kina-unhan "first"
+!ikaduha "second" (basically, ika- prefix attached to numbers)
 
 ! vim: set ft=xfst-lexc:
