@@ -5,17 +5,19 @@
 !cardinal
 LEXICON Numerals
 numeral+Num:numeral    Cases   ;
-!usa "one"
-!duha "two"
-!tulo "three"
+usa+Num:usa # "one" ;
+duha+Num:duha # "two" ;
+tulo+Num:tulo # "three" ;
 !upat "four"
 !lima "five"
 !unom "six"
 !pito "seven"
 !walo "eight"
 !siyam "nine"
-!napulo "ten" (can also be "pulo")
+napulo+v1+Num:napulo # "ten" ;! (can also be "pulo")
+napulo+v2+Num:pulo # "ten" ;
 !napulo ug usa "eleven" (basically, "napulo ug [1-9]", take note it can be also be "napulog [1-9]")
+napulo% ug% usa+Num:napulo% ug% usa # "eleven" ; !This can expanded elsewhere, i.e., transcriptors
 !kaluhaan "twenty" (can also be "kawhaan")
 !katloan "thirty" (can also be "katuloan")
 !kap-atan "forty" (can also be "kaupatan")
@@ -32,7 +34,7 @@ numeral+Num:numeral    Cases   ;
 
 
 !ordinal
-!kina-unhan "first"
+kina-unhan+A+Ord:kina-unhan # "first" ;
 !ikaduha "second" (basically, ika- prefix attached to numbers)
 !ikanapulo "tenth"
 !ikakaluhaan "twenty"

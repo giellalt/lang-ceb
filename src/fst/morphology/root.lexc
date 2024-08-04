@@ -38,6 +38,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +Pcle    !!≈ * **@CODE@** -  Particle
 +Lig    !!≈ * **@CODE@** -  Ligature
 +Num !!≈ * **@CODE@** - Numeral
++Ord !!≈ * **@CODE@** - Ordinal (etymologically these are numerals, but syntactically adjective might better suit them. I have even contemplated determiner, but no one else seems to. Jaska 2024-08-04)
 
 !!! Verb
 ! Aspect
