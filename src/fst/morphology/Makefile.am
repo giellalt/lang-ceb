@@ -20,7 +20,7 @@ SUBDIRS=. test
 
 # Add language-specific flags for hfst-lexc compilation here:
 if HAVE_SHARED_COMMON
-HFST_LEXC_LOCAL_FLAGS=  # --Werror # uncomment if lexc is good enough
+HFST_LEXC_LOCAL_FLAGS=--Werror # uncomment if lexc is good enough
 else
 HFST_LEXC_LOCAL_FLAGS=  # No --Werror if deps are missing !
 endif
@@ -36,14 +36,13 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/adjectives.lexc  \
 			 affixes/ligatures.lexc	\
 			 affixes/nouns.lexc       \
-			 affixes/propernouns.lexc \
 			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc       \
 			 stems/adjectives.lexc    \
+			 stems/interrogatives.lexc	\
 			 stems/nouns.lexc         \
 			 stems/numerals.lexc      \
 			 stems/particles.lexc	  \
-			 stems/prefixes.lexc      \
 			 stems/pronouns.lexc      \
 			 stems/verbs.lexc
 
