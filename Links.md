@@ -9,7 +9,6 @@
                 * [prefixes.lexc](src-fst-morphology-affixes-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/affixes/prefixes.lexc))
                 * [propernouns.lexc](src-fst-morphology-affixes-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/affixes/propernouns.lexc))
                 * [symbols.lexc](src-fst-morphology-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/affixes/symbols.lexc))
-                * [verbs.lexc](src-fst-morphology-affixes-verbs.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/affixes/verbs.lexc))
             * [phonology.twolc](src-fst-morphology-phonology.twolc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/phonology.twolc))
             * [root.lexc](src-fst-morphology-root.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/root.lexc))
             * `stems/`

@@ -184,6 +184,12 @@ These were the set types.
 Adjective inflection
 The Cebuano language adjectives compare.
 
+* ligatures examples:*
+* *dako:* `dako+A+Pos`
+* *pinakadako:* `dako+A+Superl`
+* *gamay* `gamay+A+Pos`
+* *pinakagamay* `gamay+A+Superl`
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
@@ -193,7 +199,7 @@ The Cebuano language adjectives compare.
 # src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
-The Cebuano language nouns inflect in number and cases.
+The Cebuano language nouns inflect for what? categories expressed by prefixes and perhaps suffixes
 
 * * *
 
@@ -232,35 +238,6 @@ nouns, but perhaps with a colon (':') as separator.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
-
----
-
-# src-fst-morphology-affixes-verbs.lexc.md 
-
-
-
-* verbs examples:*
-* *magbasa:* `basa+V+Imp`
-* *nagsalita:* `salita+V+Comp`
-* *magbabasa:* `basa+V+Cont`
-* *makinig:* `kinig+V+Imp`
-* *natulog:* `tulog+V+Comp`
-* *aral:* `aral+V+Inf`
-* *magaaral:* `aral+V+Cont`
-* *sigaw:* `sigaw+V+Inf`
-* *sumigaw:* `sigaw+V+Imp`
-* *sumigaw:* `sigaw+V+Comp`
-* *sumisigaw:* `sigaw+V+Prog`
-* *sisigaw:* `sigaw+V+Cont`
-* *tawag:* `tawag+V+Inf`
-* *tawagin:* `tawag+V+Imp`
-* *tinawag:* `tawag+V+Comp`
-* *tinatawag:* `tawag+V+Prog`
-* *tatawagin:* `tawag+V+Cont`
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -349,6 +326,8 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+* **+Der/Superl** superlative prefix pinaka%<
+* **+Comp** comparative mas -- this is not a derivation but a separate word
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -383,6 +362,9 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+language-specific flag diacritics
+* **@U.Superl.Yes@** superlative prefix
 
 The word forms in Cebuano language start from the lexeme roots of basic
 word classes, or optionally from prefixes:

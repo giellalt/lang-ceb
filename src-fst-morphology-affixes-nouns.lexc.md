@@ -1,5 +1,5 @@
 Noun inflection
-The Cebuano language nouns inflect in number and cases.
+The Cebuano language nouns inflect for what? categories expressed by prefixes and perhaps suffixes
 
 * * *
 

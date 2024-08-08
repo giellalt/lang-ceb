@@ -64,6 +64,8 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+* **+Der/Superl** superlative prefix pinaka%<
+* **+Comp** comparative mas -- this is not a derivation but a separate word
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -98,6 +100,9 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+language-specific flag diacritics
+* **@U.Superl.Yes@** superlative prefix
 
 The word forms in Cebuano language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
