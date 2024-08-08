@@ -2,9 +2,49 @@
 !  --------
 !! Prefixes in the Cebuano language are attatched to the left of other words.
 
-!LEXICON Prefixes
+LEXICON Prefixes
+@U.Superl.No@:@U.Superl.No@ Adjectives ;
+@U.Superl.Yes@:@U.Superl.Yes@pinaka%< Adjectives ; !Der/Superl
 !nounprefix-     Nouns   ;
-!verbprefix-     Verbs   ;
+verb_prefixes ;
+
+LEXICON verb_prefixes
+!!! MAG- Verbs
+@U.Asp.Comp@:@U.Asp.Comp@nag    mag_verbs ;
+@U.Asp.Prog@:@U.Asp.Prog@nag    mag_redup ;
+@U.Asp.Cont@:@U.Asp.Cont@mag    mag_redup ;
+@U.Asp.Imp@:@U.Asp.Imp@mag      mag_verbs ;
+@U.Asp.Inf@                     mag_verbs ;
+
+!!! MA- Verbs
+@U.Asp.Comp@:@U.Asp.Comp@na     ma_verbs ;
+@U.Asp.Prog@:@U.Asp.Prog@na     ma_redup ;
+@U.Asp.Cont@:@U.Asp.Cont@ma     ma_redup ;
+@U.Asp.Imp@:@U.Asp.Imp@ma       ma_verbs ;
+@U.Asp.Inf@                     ma_verbs ;
+
+!!! -UM- Verbs
+@U.Asp.Comp@                            um_verbs ;
+@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     um_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     um_verbs ;
+@U.Asp.Imp@                             um_verbs ;
+@U.Asp.Inf@                             um_verbs ;
+
+!!! -IN- Verbs
+@U.Asp.Comp@                            in_verbs ;
+@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     in_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     in_verbs ;
+@U.Asp.Imp@                             in_verbs ;
+@U.Asp.Inf@                             in_verbs ;
+
+LEXICON mag_redup
+@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     mag_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     mag_verbs ;
+
+LEXICON ma_redup
+@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     ma_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     ma_verbs ;
+
 
 
 ! vim: set ft=xfst-lexc:

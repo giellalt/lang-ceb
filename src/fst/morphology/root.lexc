@@ -154,7 +154,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! source and target part-of-speech.
  +V→N +V→V +V→A
  +Der/xxx
-
+ +Der/Superl   !!≈ * **@CODE@** superlative prefix pinaka%<
+ +Comp !!≈ * **@CODE@** comparative mas -- this is not a derivation but a separate word
 
 !! Morphophonology
 !  ---------------
@@ -193,16 +194,19 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
+!! language-specific flag diacritics
+@U.Superl.Yes@        !!≈ * **@CODE@** superlative prefix
+@U.Superl.No@
+
 LEXICON Root
 !! The word forms in Cebuano language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
- Nouns       ;
- verb_prefixes       ;
- Adjectives	      ;
  Interrogatives  ;
+ Nouns       ;
  Numerals	 ;
- Pronouns    ;
  Particles    ;
+ Prefixes ; !This takes us to verb_prefixes and adjectives
+ Pronouns    ;
  Punctuation ;
  Symbols     ;
 

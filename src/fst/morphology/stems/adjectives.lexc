@@ -3,9 +3,8 @@
 !! Adjectives in the Cebuano language describe the entities nouns refer to.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
-!dako "big"
-!gamay "small"
+dako+A:dako Comparisons "big" ;
+gamay+A:gamay Comparisons "small" ;
 
 !Comparative form
 !mas (comparative marker)

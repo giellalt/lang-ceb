@@ -3,9 +3,14 @@
 !! The Cebuano language adjectives compare.
 
 LEXICON Comparisons
-+A+Pos:0        Cases   ;
-+A+Comp:er       Cases   ;
-+A+Superl:est      Cases   ;
+@U.Superl.No@+Pos:@U.Superl.No@        Cases   ;
+@U.Superl.Yes@+Superl:@U.Superl.Yes@      Cases   ;
+
+!!€gt-desc: ligatures
+!!€ dako:          dako+A+Pos
+!!€ pinakadako:    dako+A+Superl
+!!€ gamay	   gamay+A+Pos
+!!€ pinakagamay	   gamay+A+Superl
 
 ! vim: set ft=xfst-lexc:
 
