@@ -3,8 +3,16 @@
 !! Adjectives in the Cebuano language describe the entities nouns refer to.
 
 LEXICON Adjectives
+ayo+A:ayo Comparisons "good" ;
 dako+A:dako Comparisons "big" ;
+dali+A:dali Comparisons "fast" ;
 gamay+A:gamay Comparisons "small" ;
+gwapa+A:gwapa Comparisons "beautiful" ;
+gwapo+A:gwapo Comparisons "handsome" ;
+hawod+A:hawod Comparisons "skilled" ;
+humot+A:humot Comparisons "good" ;
+mubo+A:mubo Comparisons "short" ;
+taas+A:taas Comparisons "tall" ;
 
 !Comparative form
 !mas (comparative marker)
