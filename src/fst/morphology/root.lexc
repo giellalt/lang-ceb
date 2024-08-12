@@ -39,6 +39,18 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +Lig    !!≈ * **@CODE@** -  Ligature
 +Num !!≈ * **@CODE@** - Numeral
 +Ord !!≈ * **@CODE@** - Ordinal (etymologically these are numerals, but syntactically adjective might better suit them. I have even contemplated determiner, but no one else seems to. Jaska 2024-08-04)
++Remt !!≈ * **@CODE@** - Remote deixis
++Pers !!≈ * **@CODE@** - Personal
++Sg1
++Sg2
++Sg3
++Du1
++Du2
++Du3
++Pl1
++Pl2
++Pl3
+
 
 !!! Verb
 ! Aspect
@@ -129,25 +141,25 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 
 !! Semantics are classified with
- +Mal 
- +Fem 
- +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
+ +Sem/Mal 
+ +Sem/Fem 
+ +Sem/Sur 
+ +Sem/Plc 
+ +Sem/Org
+ +Sem/Obj
+ +Sem/Ani
+ +Sem/Hum
+ +Sem/Plant
+ +Sem/Group
+ +Sem/Time 
+ +Sem/Txt
+ +Sem/Route
+ +Sem/Measr 
+ +Sem/Wthr
+ +Sem/Build 
+ +Sem/Edu
+ +Sem/Veh
+ +Sem/Clth
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
@@ -201,13 +213,21 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 LEXICON Root
 !! The word forms in Cebuano language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
+ Adverbs ;
  Interrogatives  ;
  Nouns       ;
  Numerals	 ;
  Particles    ;
  Prefixes ; !This takes us to verb_prefixes and adjectives
  Pronouns    ;
+ Propernouns ;
  Punctuation ;
  Symbols     ;
+
+LEXICON ADV_REMT
++Remt: # ;
+
+LEXICON PROP_V_PLC
+@U.Lig.V@+Sem/Plc:@U.Lig.V@ Ligatures ;
 
 ! vim: set ft=xfst-lexc:
