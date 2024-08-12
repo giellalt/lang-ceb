@@ -1,9 +1,9 @@
 LEXICON Particles
 !!! Common
 ! Singular
-ang+Pcle+Dir:ang # ; ! Direct
-og+Pcle+Idr:og # ; ! Indirect
-sa+Pcle+Obl:sa # ; ! Oblique
+ang+Pr+Dir:ang # ; ! Direct
+og+Pr+Idr:og # ; ! Indirect
+sa+Pr+Obl:sa # ; ! Oblique
 ! Plural
 ! angmgá+Pcle:mgá # ; ! Direct
 ! ogmgá+Pcle:mgá # ; ! Indirect
