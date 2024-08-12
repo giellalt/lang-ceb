@@ -32,13 +32,14 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +A    !!≈ * **@CODE@** -  Adjective
 +Adv    !!≈ * **@CODE@** -  Adverb
 +Pr    !!≈ * **@CODE@** -  Preposition
++Po    !!≈ * **@CODE@** -  Postposition, postposed
 +Pron    !!≈ * **@CODE@** -  Pronoun
 +CC    !!≈ * **@CODE@** -  Conjunction
 +CS    !!≈ * **@CODE@** -  Subjunction
 +Pcle    !!≈ * **@CODE@** -  Particle
 +Lig    !!≈ * **@CODE@** -  Ligature
 +Num !!≈ * **@CODE@** - Numeral
-+Ord !!≈ * **@CODE@** - Ordinal (etymologically these are numerals, but syntactically adjective might better suit them. I have even contemplated determiner, but no one else seems to. Jaska 2024-08-04)
++Ord !!≈ * **@CODE@** - Ordinal (etymologically these are numerals, but syntactically adjective might better suit them. I have even contemplated determiner, but no one else seems to. Jaska 2024-08-04
 +Remt !!≈ * **@CODE@** - Remote deixis
 +Pers !!≈ * **@CODE@** - Personal
 +Sg1
