@@ -1,40 +1,62 @@
 LEXICON Pronouns
 !!! Direct
-ako+Pron+Pers+Sg1:akó NOUN_V ;      ! 1st person singular
-ako+v1+Pron+Pers+Du1+Dir:kitá # ;     ! 1st person dual
-!versions: https://en.wikipedia.org/wiki/Tagalog_grammar#Pronouns
-ako+v2+Pron+Pers+Du1+Dir:katá # ;     ! 1st person dual
-ako+Pron+Pers+Pl1+Incl+Dir:tayo # ;     ! 1st person inclusive
-ako+Pron+Pers+Pl1+Excl+Dir:kamí # ;     ! 1st person exclusive
+ako+v1+Pron+Pers+Sg1:akó NOUN_V ;      ! 1st person singular
+ako+v2+Pron+Pers+Sg1:ko NOUN_V ;      ! 1st person singular short
+!ako+v1+Pron+Pers+Du1+Dir:kitá # ;     ! 1st person dual
+!!versions: https://en.wikipedia.org/wiki/Cebuano_grammar#Pronouns
+!ako+v2+Pron+Pers+Du1+Dir:katá # ;     ! 1st person dual
+ako+v1+Pron+Pers+Pl1+Incl+Dir:kitá # ;     ! 1st person inclusive
+ako+v1+Pron+Pers+Pl1+Incl+Dir:ta # ;     ! 1st person inclusive short
+ako+v1+Pron+Pers+Pl1+Excl+Dir:kamí # ;     ! 1st person exclusive
+ako+v2+Pron+Pers+Pl1+Excl+Dir:mi # ;     ! 1st person exclusive short
 ikaw+v1+Pron+Pers+Sg2+Dir:ikáw # ;     ! 2nd person singular
-ikaw+v2+Pron+Pers+Sg2+Dir:ka # ;     ! 2nd person singular
-ikaw+Pron+Pers+Pl2+Dir:kayó # ;     ! 2nd person plural
+ikaw+v2+Pron+Pers+Sg2+Dir:ka # ;     ! 2nd person singular short
+ikaw+Pron+Pers+Pl2+Dir:kamó # ;     ! 2nd person plural
+ikaw+Pron+Pers+Pl2+Dir:mo # ;     ! 2nd person plural short
 siya+Pron+Pers+Sg3+Dir:siyá # ;     ! 3rd person singular
+siya+Pron+Pers+Sg3+Dir:sya # ;     ! 3rd person singular short
 siya+Pron+Pers+Pl3+Dir:silá # ;     ! 3rd person plural
 
  !!! Indirect (Genitive)
-ako+v1+Pron+Pers+Sg1+Idr:ko # ;       ! 1st person singular
-ako+v2+Pron+Pers+Sg1+Idr:nakin # ;       ! 1st person singular
-ako+v1+Pron+Pers+Du1+Idr:nita # ;     ! 1st person dual
-ako+v2+Pron+Pers+Du1+Idr:nata # ;     ! 1st person dual
-ako+v3+Pron+Pers+Du1+Idr:ta # ;     ! 1st person dual
-ako+Pron+Pers+Pl1+Incl+Idr:natin # ;    ! 1st person inclusive
-ako+Pron+Pers+Pl1+Excl+Idr:namin # ;    ! 1st person exclusive
-ikaw+v1+Pron+Pers+Sg2+Idr:mo # ;       ! 2nd person singular
-ikaw+v2+Pron+Pers+Sg2+Idr:niyo # ;       ! 2nd person singular
-ikaw+Pron+Pers+Pl2+Idr:ninyó # ;    ! 2nd person plural
-siya+Pron+Pers+Sg3+Idr:niyá # ;     ! 3rd person singular
-siya+Pron+Pers+Pl3+Idr:nilá # ;     ! 3rd person plural
+ako+v1+Pron+Pers+Sg1+Idr:ako # ;       ! 1st person singular
+ako+v2+Pron+Pers+Sg1+Idr:akoa # ;       ! 1st person singular
+ako+v1+Pron+Pers+Sg1+Idr+Po:nàko # ;       ! 1st person singular
+ako+v2+Pron+Pers+Sg1+Idr+Po:ko # ;       ! 1st person singular short
+
+ako+v1+Pron+Pers+Pl1+Incl+Idr:ato # ;    ! 1st person inclusive
+ako+v2+Pron+Pers+Pl1+Incl+Idr:atoa # ;    ! 1st person inclusive
+ako+v1+Pron+Pers+Pl1+Incl+Idr+Po:natò # ;    ! 1st person inclusive
+ako+v2+Pron+Pers+Pl1+Incl+Idr+Po:ta # ;    ! 1st person inclusive short
+ako+v1+Pron+Pers+Pl1+Excl+Idr:amò # ;    ! 1st person exclusive
+ako+v2+Pron+Pers+Pl1+Excl+Idr:amoa # ;    ! 1st person exclusive
+ako+v1+Pron+Pers+Pl1+Excl+Idr+Po:namò # ;    ! 1st person exclusive
+ikaw+v1+Pron+Pers+Sg2+Idr:imo # ;       ! 2nd person singular
+ikaw+v2+Pron+Pers+Sg2+Idr:imoha # ;       ! 2nd person singular
+ikaw+v1+Pron+Pers+Sg2+Idr+Po:nimo # ;       ! 2nd person singular
+ikaw+v2+Pron+Pers+Sg2+Idr+Po:mo # ;       ! 2nd person singular short
+ikaw+v1+Pron+Pers+Pl2+Idr:inyo # ;    ! 2nd person plural
+ikaw+v2+Pron+Pers+Pl2+Idr:inyoha # ;    ! 2nd person plural
+ikaw+Pron+Pers+Pl2+Idr+Po:ninyo # ;    ! 2nd person plural
+siya+v1+Pron+Pers+Sg3+Idr:iya # ;     ! 3rd person singular
+siya+v1+Pron+Pers+Sg3+Idr:iyaha # ;     ! 3rd person singular
+siya+Pron+Pers+Sg3+Idr+Po:niya # ;     ! 3rd person singular
+siya+v1+Pron+Pers+Pl3+Idr:ila # ;     ! 3rd person plural
+siya+v2+Pron+Pers+Pl3+Idr:ilaha # ;     ! 3rd person plural
+siya+Pron+Pers+Pl3+Idr+Po:nila # ;     ! 3rd person plural
 
  !!! Oblique
-ako+Pron+Pers+Sg1+Obl:akin # ;     ! 1st person singular
-ako+v1+Pron+Pers+Du1+Obl:kanitá # ;   ! 1st person dual
-ako+v2+Pron+Pers+Du1+Obl:kanatá # ;   ! 1st person dual
-ako+v3+Pron+Pers+Du1+Obl:atá # ;   ! 1st person dual
-ako+Pron+Pers+Pl1+Incl+Obl:atin # ;     ! 1st person inclusive
-ako+Pron+Pers+Pl1+Excl+Obl:amin # ;     ! 1st person exclusive
-ikaw+Pron+Pers+Sg2+Obl:iyó # ;      ! 2nd person singular
-ikaw+Pron+Pers+Pl2+Obl:inyó # ;     ! 2nd person plural
-siya+Pron+Pers+Sg3+Obl:kaniyá # ;   ! 3rd person singular
-siya+Pron+Pers+Pl3+Obl:kanilá # ;   ! 3rd person plural
+ako+v1+Pron+Pers+Sg1+Obl:kanakò # ;     ! 1st person singular
+ako+v2+Pron+Pers+Sg1+Obl:nakò # ;     ! 1st person singular short
+ako+v1+Pron+Pers+Pl1+Incl+Obl:kanatò # ;     ! 1st person inclusive
+ako+v2+Pron+Pers+Pl1+Incl+Obl:natò # ;     ! 1st person inclusive short
+ako+v1+Pron+Pers+Pl1+Excl+Obl:kanamò # ;     ! 1st person exclusive
+ako+v2+Pron+Pers+Pl1+Excl+Obl:namò # ;     ! 1st person exclusive
+ikaw+v1+Pron+Pers+Sg2+Obl:kanimo # ;      ! 2nd person singular
+ikaw+v2+Pron+Pers+Sg2+Obl:kanimo # ;      ! 2nd person singular short
+ikaw+v1+Pron+Pers+Pl2+Obl:kaninyó # ;     ! 2nd person plural
+ikaw+v2+Pron+Pers+Pl2+Obl:ninyó # ;     ! 2nd person plural short
+siya+v1+Pron+Pers+Sg3+Obl:kaniya # ;   ! 3rd person singular
+siya+v2+Pron+Pers+Sg3+Obl:niya # ;   ! 3rd person singular short
+siya+v1+Pron+Pers+Pl3+Obl:kanila # ;   ! 3rd person plural
+siya+v2+Pron+Pers+Pl3+Obl:nila # ;   ! 3rd person plural short
 
