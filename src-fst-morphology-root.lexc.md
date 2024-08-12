@@ -14,13 +14,14 @@ The parts-of-speech are:
 * **+A** -  Adjective
 * **+Adv** -  Adverb
 * **+Pr** -  Preposition
+* **+Po** -  Postposition, postposed
 * **+Pron** -  Pronoun
 * **+CC** -  Conjunction
 * **+CS** -  Subjunction
 * **+Pcle** -  Particle
 * **+Lig** -  Ligature
 * **+Num** - Numeral
-* **+Ord** - Ordinal (etymologically these are numerals, but syntactically adjective might better suit them. I have even contemplated determiner, but no one else seems to. Jaska 2024-08-04)
+* **+Ord** - Ordinal (etymologically these are numerals, but syntactically adjective might better suit them. I have even contemplated determiner, but no one else seems to. Jaska 2024-08-04
 * **+Remt** - Remote deixis
 * **+Pers** - Personal
 
