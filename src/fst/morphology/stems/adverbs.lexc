@@ -1,0 +1,9 @@
+!! Adverbs
+!  ----------
+!! Adverbs in the Cebuano language express space, time, manner, degree...
+
+LEXICON Adverbs
+tua+Adv:tua ADV_REMT "there" ;
+
+
+! vim: set ft=xfst-lexc:
