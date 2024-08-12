@@ -13,9 +13,11 @@
             * [root.lexc](src-fst-morphology-root.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/root.lexc))
             * `stems/`
                 * [adjectives.lexc](src-fst-morphology-stems-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/adjectives.lexc))
+                * [adverbs.lexc](src-fst-morphology-stems-adverbs.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/adverbs.lexc))
                 * [numerals.lexc](src-fst-morphology-stems-numerals.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/numerals.lexc))
                 * [particles.lexc](src-fst-morphology-stems-particles.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/particles.lexc))
                 * [pronouns.lexc](src-fst-morphology-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/pronouns.lexc))
+                * [propernouns.lexc](src-fst-morphology-stems-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/propernouns.lexc))
                 * [verbs.lexc](src-fst-morphology-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/verbs.lexc))
         * `phonetics/`
             * [txt2ipa.xfscript](src-fst-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-ceb/blob/main/src/fst/phonetics/txt2ipa.xfscript))

@@ -283,6 +283,8 @@ The parts-of-speech are:
 * **+Lig** -  Ligature
 * **+Num** - Numeral
 * **+Ord** - Ordinal (etymologically these are numerals, but syntactically adjective might better suit them. I have even contemplated determiner, but no one else seems to. Jaska 2024-08-04)
+* **+Remt** - Remote deixis
+* **+Pers** - Personal
 
 * **+Comp** - 
 * **+Cont** - 
@@ -386,6 +388,17 @@ Adjectives in the Cebuano language describe the entities nouns refer to.
 
 ---
 
+# src-fst-morphology-stems-adverbs.lexc.md 
+
+Adverbs
+Adverbs in the Cebuano language express space, time, manner, degree...
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
+
+---
+
 # src-fst-morphology-stems-numerals.lexc.md 
 
 Numerals
@@ -414,6 +427,17 @@ Numerals in the Cebuano language describe a nuerical quantity.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
+
+---
+
+# src-fst-morphology-stems-propernouns.lexc.md 
+
+Propernouns
+Propernouns in the Cebuano language 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-ceb/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
 
