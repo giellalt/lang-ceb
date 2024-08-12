@@ -1,6 +1,6 @@
 LEXICON Pronouns
 !!! Direct
-ako+Pron+Pers+Sg1+Dir:akó # ;      ! 1st person singular
+ako+Pron+Pers+Sg1:akó NOUN_V ;      ! 1st person singular
 ako+v1+Pron+Pers+Du1+Dir:kitá # ;     ! 1st person dual
 !versions: https://en.wikipedia.org/wiki/Tagalog_grammar#Pronouns
 ako+v2+Pron+Pers+Du1+Dir:katá # ;     ! 1st person dual
