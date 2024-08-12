@@ -1,0 +1,9 @@
+!! Propernouns
+!  ----------
+!! Propernouns in the Cebuano language 
+
+LEXICON Propernouns
+Cebu+N+Prop:Cebu PROP_V_PLC "Cebu" ;
+
+
+! vim: set ft=xfst-lexc:
