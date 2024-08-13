@@ -2,11 +2,11 @@ LEXICON Pronouns
 !!! Direct
 ako+v1+Pron+Pers+Sg1+Dir:akó # ;      ! 1st person singular
 ako+v2+Pron+Pers+Sg1+Dir:ko # ;      ! 1st person singular short
-ako+v1+Pron+Pers+Du1+Dir:tika # ;     ! 1st person dual
-ako+v2+Pron+Pers+Du1+Dir:taka # ;     ! 1st person dual
+ako+v1+Pron+Pers+Du1+Dir:tiká # ;     ! 1st person dual
+ako+v2+Pron+Pers+Du1+Dir:taká # ;     ! 1st person dual
 !!versions: https://en.wikipedia.org/wiki/Cebuano_grammar#Pronouns
 ako+v1+Pron+Pers+Pl1+Incl+Dir:kitá # ;     ! 1st person inclusive
-ako+v1+Pron+Pers+Pl1+Incl+Dir:ta # ;     ! 1st person inclusive short
+ako+v1+Pron+Pers+Pl1+Incl+Dir:tá # ;     ! 1st person inclusive short
 ako+v1+Pron+Pers+Pl1+Excl+Dir:kamí # ;     ! 1st person exclusive
 ako+v2+Pron+Pers+Pl1+Excl+Dir:mi # ;     ! 1st person exclusive short
 ikaw+v1+Pron+Pers+Sg2+Dir:ikáw # ;     ! 2nd person singular
@@ -25,12 +25,15 @@ ako+v1+Pron+Pers+Sg1+Idr+Po:nàko # ;       ! 1st person singular
 ako+v2+Pron+Pers+Sg1+Idr+Po:ko # ;       ! 1st person singular short
 
 ako+v1+Pron+Pers+Pl1+Incl+Idr:ato # ;    ! 1st person inclusive
+ako+v1+Pron+Pers+Pl1+Incl+Idr:ato##ng # ;    ! 1st person inclusive
 ako+v2+Pron+Pers+Pl1+Incl+Idr:atoa # ;    ! 1st person inclusive
+ako+v2+Pron+Pers+Pl1+Incl+Idr:atoa##ng # ;    ! 1st person inclusive
 ako+v1+Pron+Pers+Pl1+Incl+Idr+Po:natò # ;    ! 1st person inclusive
 ako+v2+Pron+Pers+Pl1+Incl+Idr+Po:ta # ;    ! 1st person inclusive short
 ako+v1+Pron+Pers+Pl1+Excl+Idr:amò # ;    ! 1st person exclusive
 ako+v1+Pron+Pers+Pl1+Excl+Idr+Lig:amo##ng # ;    ! 1st person exclusive
 ako+v2+Pron+Pers+Pl1+Excl+Idr:amoa # ;    ! 1st person exclusive
+ako+v2+Pron+Pers+Pl1+Excl+Idr:amo##ng # ;    ! 1st person exclusive
 ako+v1+Pron+Pers+Pl1+Excl+Idr+Po:namò # ;    ! 1st person exclusive
 ikaw+v1+Pron+Pers+Sg2+Idr:imo # ;       ! 2nd person singular
 ikaw+v1+Pron+Pers+Sg2+Idr+Lig:imo##ng # ;       ! 2nd person singular
@@ -41,15 +44,21 @@ ikaw+v2+Pron+Pers+Sg2+Idr+Po:mo # ;       ! 2nd person singular short
 ikaw+v1+Pron+Pers+Pl2+Idr:inyo # ;    ! 2nd person plural
 ikaw+v1+Pron+Pers+Pl2+Idr+Lig:inyo##ng # ;    ! 2nd person plural
 ikaw+v2+Pron+Pers+Pl2+Idr:inyoha # ;    ! 2nd person plural
+ikaw+v2+Pron+Pers+Pl2+Idr:inyoha##ng # ;    ! 2nd person plural
 ikaw+Pron+Pers+Pl2+Idr+Po:ninyo # ;    ! 2nd person plural
+ikaw+Pron+Pers+Pl2+Idr+Po:ninyo##ng # ;    ! 2nd person plural
 siya+v1+Pron+Pers+Sg3+Idr:iya # ;     ! 3rd person singular
 siya+v1+Pron+Pers+Sg3+Idr+Lig:iya##ng # ;     ! 3rd person singular
 siya+v1+Pron+Pers+Sg3+Idr:iyaha # ;     ! 3rd person singular
+siya+v1+Pron+Pers+Sg3+Idr:iyaha##ng # ;     ! 3rd person singular
 siya+Pron+Pers+Sg3+Idr+Po:niya # ;     ! 3rd person singular
+siya+Pron+Pers+Sg3+Idr+Po:niya##ng # ;     ! 3rd person singular
 siya+v1+Pron+Pers+Pl3+Idr:ila # ;     ! 3rd person plural
 siya+v1+Pron+Pers+Pl3+Idr+Lig:ila##ng # ;     ! 3rd person plural
 siya+v2+Pron+Pers+Pl3+Idr:ilaha # ;     ! 3rd person plural
+siya+v2+Pron+Pers+Pl3+Idr:ilaha##ng # ;     ! 3rd person plural
 siya+Pron+Pers+Pl3+Idr+Po:nila # ;     ! 3rd person plural
+siya+Pron+Pers+Pl3+Idr+Po:nila##ng # ;     ! 3rd person plural
 
  !!! Oblique
 ako+v1+Pron+Pers+Sg1+Obl:kanakò # ;     ! 1st person singular
