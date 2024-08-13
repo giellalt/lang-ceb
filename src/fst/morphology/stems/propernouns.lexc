@@ -4,6 +4,7 @@
 
 LEXICON Propernouns
 Cebu+N+Prop:Cebu PROP_V_PLC "Cebu" ;
-
+Pilipinas+N+Prop:Pilipinas PROP_V_PLC "Philippines" ;
+Dabaw+N+Prop:Dabaw PROP_V_PLC "Davao" ;
 
 ! vim: set ft=xfst-lexc:
