@@ -1,21 +1,22 @@
 ! Lexicon containing noun stems
 LEXICON Nouns
 ! Nouns ending in vowel
-amahan+N:amahan NOUN_N "father" ;
-tatay+N:tatay NOUN_V "father" ;
 bana+N:bana NOUN_V "husband" ;
 iro+N:iro NOUN_V "dog" ;
+baka+N:baka NOUN_V "cow" ;
+baki+N:baki NOUN_V "frog" ;
+aso+N:aso NOUN_V "smoke" ;
+bagyo+N:bagyo NOUN_V "storm" ;
 
-!anak% na% lalaki+N:anak% na% lalaki NOUN_V; ! son
-!anak% na% babae+N:anak% na% babaʼeʼ NOUN_V; ! daughter
+!anak% nga% lalaki+N:anak% na% lalaki NOUN_V; ! son
+!anak% nga% babae+N:anak% na% babaʼeʼ NOUN_V; ! daughter
 !asawang% lalaki+N:asawang% lalaki NOUN_V; ! husband
 !asawang% babae+N:asawang% babaʼeʼ NOUN_V; ! wife
 
 babayi+v1+N:babayi NOUN_V "woman" ;
 babayi+v2+N:babaye NOUN_V "woman" ;
 
-!baka+N:baka NOUN_V; ! cow
-!bansa+N:bansa NOUN_V; ! country
+!nasud+N:nasod NOUN_V; ! country
 !banyo+N:banyo NOUN_V; ! bathroom
 bata+N:bata NOUN_V "child|children|boy" ;
 !batang% babae+N:batang% babaʼeʼ NOUN_V; ! girl
@@ -26,19 +27,20 @@ bata+N:bata NOUN_V "child|children|boy" ;
 inahan+N:inahan NOUN_N "mother" ;
 !isda+N:isdaʼ NOUN_V; ! fish
 !kama+N:kama NOUN_V; ! bed
-!kamiseta+N:kamiseta NOUN_V; ! shirt
+!higdaanan+N:higdaanan NOUN_V; ! bed
+!sanina+N:sanina NOUN_V; ! shirt
 !kompyuter+N:kompyuter NOUN_C; ! computer
 kusina+N:kusina NOUN_V "kitchen" ;
 lalaki+v1+N:lalaki NOUN_V "man" ;
 lalaki+v2+N:lalake NOUN_V "man" ;
 semana+N:semana NOUN_V "week" ;
 !magsasaka+N:magsasaka NOUN_V; ! farmer
-!matanda+N:matanda NOUN_V; ! adult
+!tiguwang+N:tiguwang NOUN_V; ! adult
 !minuto+N:minuto NOUN_V; ! minute
 !niyebe+N:niyebe NOUN_V; ! snow
 uyab+N:uyab NOUN_C "girlfriend" ;
-!nobyo+N:nobyo NOUN_V; ! boyfriend
-!pangalawa+N:pangalawa NOUN_V; ! second
+!uyab is genderless. It can be used for girlfriend or boyfriend
+!ikaduha+N:ikaduha NOUN_V; ! second
 kwarta+N:kwarta NOUN_V "money" ;
 iring+N:iring NOUN_C "cat" ;
 !kape+N:kape NOUN_V; ! coffee
@@ -53,27 +55,35 @@ amiga+N:amiga NOUN_V "friend" ;
 higala+N:higala NOUN_V "friend" ;
 
 ! Nouns ending in 'n'
-!kaibigan+N:kaibigan NOUN_N; ! friend
+amahan+N:amahan NOUN_N "father" ;
 pagkaon+N:pagkaon NOUN_N "food" ;
 ngalan+N:ngalan NOUN_N "name" ;
 pantalon+N:pantalon NOUN_N "pants" ;
 !telebisyon+N:telebisyon NOUN_N; ! television
 !ulan+N:ulan NOUN_N; ! rain
+igsoon+N:igsoon NOUN_N "sibling" ;
+
+! Nouns ending in 'y"
+tatay+N:tatay NOUN_N "father" ;
+kaaway+N:kaaway NOUN_N "enemy" ;
+atay+N:atay NOUN_N "liver" ;
+unggoy+N:unggoy NOUN_N "monkey" ;
 
 ! Nouns ending in consonant other than 'n'
 doktor+N:doktor NOUN_C "doctor" ;
 !hotel+N:hotel NOUN_C; ! hotel
-!kambing+N:kambing NOUN_C; ! goat
-igsoon+N:igsoon NOUN_N "sibling" ;
+!kanding+N:kanding NOUN_C; ! goat
 !manok+N:manok NOUN_C; ! chicken
 !medyas+N:medyas NOUN_C; ! sock
-!ngayong% araw+N:ngayong% araw NOUN_C; ! today
+!karong% adlaw+N:karong% adlaw NOUN_C; ! today
 !nars+N:nars NOUN_C; ! nurse
 oras+N:oras NOUN_C "hour" ;
 !sapatos+N:sapatos NOUN_C; ! shoe
 tubig+N:tubig NOUN_C "water" ;
 tuig+N:tuig NOUN_C "year" ;
-!ulap+N:ulap NOUN_C; ! cloud
+!panganod+N:panganod NOUN_C; ! cloud
+
+
 
 LEXICON NOUN_V
  @U.Lig.V@:@U.Lig.V@  Ligatures ;
