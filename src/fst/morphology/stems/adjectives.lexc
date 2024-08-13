@@ -9,10 +9,39 @@ dali+A:dali Comparisons "fast" ;
 gamay+A:gamay Comparisons "small" ;
 gwapa+A:gwapa Comparisons "beautiful" ;
 gwapo+A:gwapo Comparisons "handsome" ;
+pangit+A:pangit Comparisons "ugly" ;
 hawod+A:hawod Comparisons "skilled" ;
 humot+A:humot Comparisons "good" ;
 mubo+A:mubo Comparisons "short" ;
 taas+A:taas Comparisons "tall" ;
+taas+A:taas Comparisons "high" ;
+! note "taas" is used only for object height. "tangkad" is used for people or animals.
+tangkad+A:taas Comparisons "tall" ;
+mabaw+A:mabaw Comparisons "shallow" ;
+lalom+A:lalom Comparisons "deep" ;
+taba+A:taba Comparisons "fat" ;
+payat+A:payat Comparisons "thin" ;
+humot+A:humot Comparisons "smells good" ;
+baho+A:baho Comparisons "smells bad" ;
+but-an+A:but-an Comparisons "good" ;
+! "but-an" means good like morality
+daotan+A:daotan Comparisons "bad" ;
+! "daotan" means bad or evil like morality
+isog+A:isog Comparisons "brave" ;
+talawan+A:talawan Comparisons "cowardly" ;
+limpyo+A:limpyo Comparisons "clean" ;
+hugaw+A:hugaw Comparisons "dirty" ;
+buang+A:buang Comparisons "crazy" ;
+hayag+A:hayag Comparisons "bright" ;
+dulom+A:dulom Comparisons "dim" ;
+init+A:init Comparisons "init" ;
+bugnaw+A:bugnaw Comparisons "cold" ;
+tugnaw+A:tugnaw Comparisons "cold" ;
+! there is distinction between "bugnaw" and "tugnaw". "Tugnaw" is generally used for weather, i.e. "Tugnaw ang panahon karon." ("The weather today is cold"). "Bugnaw" is generally used for everything else.
+buhi+A:buhi Comparisons "alive" ;
+patay+A:patay Comparisons "dead" ;
+samok+A:samok Comparisons "annoying" ;
+laay+A:laay Comparisons "boring" ;
 
 !Comparative form
 !mas (comparative marker)
