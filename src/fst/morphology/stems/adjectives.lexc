@@ -11,18 +11,16 @@ gwapa+A:gwapa Comparisons "beautiful" ;
 gwapo+A:gwapo Comparisons "handsome" ;
 pangit+A:pangit Comparisons "ugly" ;
 hawod+A:hawod Comparisons "skilled" ;
-humot+A:humot Comparisons "good" ;
+humot+A:humot Comparisons "good|good smelling" ;
 mubo+A:mubo Comparisons "short" ;
-taas+A:taas Comparisons "tall" ;
-taas+A:taas Comparisons "high" ;
+taas+A:taas Comparisons "tall|high" ;
 ! note "taas" is used only for object height. "tangkad" is used for people or animals.
 tangkad+A:taas Comparisons "tall" ;
 mabaw+A:mabaw Comparisons "shallow" ;
 lalom+A:lalom Comparisons "deep" ;
 taba+A:taba Comparisons "fat" ;
 payat+A:payat Comparisons "thin" ;
-humot+A:humot Comparisons "smells good" ;
-baho+A:baho Comparisons "smells bad" ;
+baho+A:baho Comparisons "bad smelling" ;
 but-an+A:but-an Comparisons "good" ;
 ! "but-an" means good like morality
 daotan+A:daotan Comparisons "bad" ;
