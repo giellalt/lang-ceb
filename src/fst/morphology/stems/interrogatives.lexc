@@ -2,14 +2,15 @@ LEXICON Interrogatives
 unsa+Pron+Interr:unsa # ;       ! what
 !hain+A+Interr:hain # ;      ! which Jaska:20240801: +A vs +Det
 ngano+Pron+Interr:ngano # ;     ! why
-giunsa+Adv+Interr:giunsa # ;     ! how (extent/degree/quantity)
+! giunsa+Adv+Interr:giunsa # ;     ! how (extent/degree/quantity)
 pila+Adv+Interr:pila # ;      ! how many
 kanus-a+Adv+Interr:kanus-a # ;    ! when
 kumusta+Adv+Interr:kumusta # ;   ! how <be> (condition/quality)
 tagpila+Adv+Interr:tagpila # ;   ! how much (price)
 !kang kinsa+Pron+Interr:kang kinsa # ; ! with whom, in whose possession, at whose place
 asa+Pron+Interr:asa # ;    ! where <be>, which place(s) <be>
-giunsa+Adv+Interr:giunsa # ;     ! how (manner/means/action done)
+giunsa+Adv+Interr:giunsa # ;     ! how (manner/means/action done, but with volition)
+naunsa+Adv+Interr:naunsa # ;     ! how (manner/means/action done, but with less volition)
 unsaon+Adv+Interr:unsaon # ;     ! how (manner/means/action to be done)
 !asa+Adv+Interr:asa # ;       ! where, which place(s), what
 kinsa+Pron+Interr:kinsa # ;      ! whom, which person
