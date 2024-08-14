@@ -1,0 +1,10 @@
+template = ""
+rev_id = 186
+template_sha = "0fe92558ae2a50b1445da2cbe32fb65cc2359499"
+
+[replacements]
+__LICENSE__ = "LGPLv3"
+__REPO__ = "lang-ceb"
+__UND2C__ = "ceb"
+__UNDEFINED__ = "Cebuano"
+__UND__ = "ceb"
