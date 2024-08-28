@@ -25,6 +25,9 @@ The parts-of-speech are:
 * **+Remt** - Remote deixis
 * **+Pers** - Personal
 
+95–
+Neutral, Progressive, Distributive, Aptative, Progressive Causative, Causative (goal receiver), Causative (goal Agent)
+
 * **+Comp** - 
 * **+Cont** - 
 * **+Prog** - 
