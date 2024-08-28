@@ -55,12 +55,15 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !!! Verb
 ! Aspect
+!! 95–
+!! Neutral, Progressive, Distributive, Aptative, Progressive Causative, Causative (goal receiver), Causative (goal Agent)
 @U.Asp.Comp@
 @U.Asp.Cont@
 @U.Asp.Prog@
 @U.Asp.Imp@
 @U.Asp.Rcmp@
 @U.Asp.Inf@
+
 +Comp !!≈ * **@CODE@** - 
 +Cont !!≈ * **@CODE@** - 
 +Prog !!≈ * **@CODE@** - 

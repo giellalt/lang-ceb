@@ -7,6 +7,12 @@ baka+N:baka NOUN_V "cow" ;
 baki+N:baki NOUN_V "frog" ;
 aso+N:aso NOUN_V "smoke" ;
 bagyo+N:bagyo NOUN_V "storm" ;
+sinina+N:sinina NOUN_V "dress" ;
+kahoy+N:kahoy NOUN_V "tree" ;
+klase+N:klase NOUN_V "class" ;
+leksyon+N:leksyon NOUN_N "lesson" ;
+libro+N:liblro NOUN_V "book" ;
+
 
 !anak% nga% lalaki+N:anak% na% lalaki NOUN_V; ! son
 !anak% nga% babae+N:anak% na% babaʼeʼ NOUN_V; ! daughter
@@ -53,6 +59,7 @@ iring+N:iring NOUN_C "cat" ;
 amigo+N:amigo NOUN_V "friend" ;
 amiga+N:amiga NOUN_V "friend" ;
 higala+N:higala NOUN_V "friend" ;
+sulti+N:sulti NOUN_V "talk" ;
 
 ! Nouns ending in 'n'
 amahan+N:amahan NOUN_N "father" ;
