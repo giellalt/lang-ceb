@@ -55,3 +55,86 @@ sipa+V:sipa in_infix  "kick" ;
 sira+V:sira in_infix  "destroy" ;
 tawag+V:tawag in_infix  "call by name" ;
 tonto+V:tonto in_infix "kid" ;
+
+!! 2024-09-27 same value for different morphology
+! mu-X +AF+Asp/Imp+Ind
+!adto+V+AF+Asp/UND+Ind:muadto # "go" ;
+!adto+V+AF+Asp/Imp+Ind:moadto # "go" ;
+!balik+V+AF+Asp/Imp+Ind:mubalik # "return" ;
+!inom+V+AF+Asp/Imp+Ind:muinom # "drink" ;
+!lakaw+V+AF+Asp/Imp+Ind:mulakaw # "go.out" ;
+!sayaw+V+AF+Asp/Imp+Ind:musayaw # "go.to.dance" ;
+
+! mag-X +AF+Asp/Imp+Ind
+!party+V+AF+Asp/Imp+Ind:magparty # "party" ;
+!tuon+V+AF+Asp/Imp+Ind:magtuon # "study" ;
+
+! ga-X +AF+Asp/Perf+Ind
+!tindog+V+AF+Asp/Perf+Ind:gatindog # "stand" ;
+
+! nag-X +AF+Asp/Perf+Ind
+!huna+V+AF+Asp/Perf+Ind:naghuna # "think" ;
+!kita+V+AF+Asp/Perf+Ind+Neutr/Yes:nagkitaay # "meet" ;
+!tahi+V+AF+Asp/Perf+Ind:nagtahi # "sew" ;
+!tonto+V+AF+Asp/Perf+Ind:nagtinonto # "kidding" ;
+
+! ni-X +AF+Asp/Perf+Ind
+!ambak+V+AF+Asp/Perf+Ind:niambak # "jump" ;
+!basa+V+AF+Asp/Perf+Ind:nibasa # "read" ;
+!kaon+V+AF+Asp/Perf+Ind:nikaon # "eat" ;
+!tan-aw+V+AF+Asp/Perf+Ind:nitan-aw # "watch" ;
+
+! ning-X +AF+Asp/Perf+Ind
+!saad+V+AF+Asp/Perf+Ind:ningsaad # "promise" ;
+
+! ma-X +AF+Asp/Prosp+Pot
+!himo+V+AF+Asp/Prosp+Pot:mahimo # "could" ;
+
+! ma-X-an +AF+Asp/Prosp+Pot
+!init+V+AF+Asp/Prosp+Pot:mainitan # "exposed to the sun" ;
+
+! maN-X +AF+Asp/Prosp+Ind
+!kutana+V+AF+Asp/Prosp+Ind:mangutana # "ask.question" ;
+!palit+V+AF+Asp/Prosp+Ind:mamalit # "buy" ;
+
+! ma-X +AF+Asp/Prosp+Ind
+!lipong+V+AF+Asp/Prosp+Ind:malipong # "paint" ;
+
+! naN-X +AF+Asp/Prosp+Ind
+!pupu+V+AF+Asp/Prosp+Ind:namupu # "pick" ;
+
+! pag-X +AF+Asp/UND+Imp
+!dali+V+AF+Asp/UND+Imp:pagdali # "hurry" ;
+!pataka+V+AF+Asp/UND+Imp:pagpataka # "" ;
+
+! pa-X +PF+Asp/Imp+Ind
+!dulong+V+PF+Asp/Imp+Ind:padulong # "head.to" ;
+
+! X-on +PF+Asp/Imp+Ind
+!palit+V+PF+Asp/Imp+Ind:paliton # "buy" ;
+!putol+V+PF+Asp/Imp+Ind:putlon # "cut" ;
+!ligo+V+PF+Asp/Imp+Ind:liguon # "bathe" ;
+
+! X-an +PF+Asp/Imp+Ind
+!silhig+V+PF+Asp/Imp+Ind:silhigan # "sweep" ;
+!tabang+V+PF+Asp/Imp+Ind:tabangan # "help" ;
+
+
+! gi-X PF+Asp/Perf+Ind
+!bayad+V+PF+Asp/Perf+Ind:gibayad # "pay" ;
+!?kuha+V+PF+Asp/Perf+Ind:gikuha # "receive" ;
+!tawag+V+PF+Asp/Perf+Ind:gitawag # "call" ;
+
+! na-X PF+Asp/Perf+Ind
+!?kuha+V+PF+Asp/Perf+Ind:nakuha # "receive" ;
+
+! gi-X-an PF+Asp/Perf+Ind
+!?maot+V+PF+Asp/Perf+Ind:gimaotan # "see.as.ugly" ;
+! na-X-an PF+Asp/Perf+Ind
+!?maot+V+PF+Asp/Perf+Ind:namaotan # "see.as.ugly" ;
+
+! X-i +LF+Asp/UND+Imp
+!palit+V+LF+Asp/UND+Imp:paliti # "buy" ;
+
+! i-X +IF+Asp/UND+Imp
+!pasa+V+IF+Asp/UND+Imp:ipasa # "pass" ;
