@@ -21,21 +21,21 @@ libro+N:liblro NOUN_V "book" ;
 
 babayi+v1+N:babayi NOUN_V "woman" ;
 babayi+v2+N:babaye NOUN_V "woman" ;
+babayi+v3+N:bae NOUN_V "woman" ;
 
 !nasud+N:nasod NOUN_V; ! country
 !banyo+N:banyo NOUN_V; ! bathroom
 bata+N:bata NOUN_V "child|children|boy" ;
-!batang% babae+N:batang% babaʼeʼ NOUN_V; ! girl
-!batang% lalaki+N:batang% lalaki NOUN_V; ! boy
-!butiki+N:butiki NOUN_V; ! lizard
-!eroplano+N:eroplano NOUN_V; ! airplane
-!guro+N:guro NOUN_V; ! teacher
+batang% babae+N:batang% babaʼeʼ NOUN_V "girl" ;
+batang% lalaki+N:batang% lalaki NOUN_V "boy" ;
+butiki+N:butikiʼ NOUN_V "lizard" ;
+eroplano+N:eroplano NOUN_V "airplane" ;
 inahan+N:inahan NOUN_N "mother" ;
-!isda+N:isdaʼ NOUN_V; ! fish
-!kama+N:kama NOUN_V; ! bed
-!higdaanan+N:higdaanan NOUN_V; ! bed
-!sanina+N:sanina NOUN_V; ! shirt
-!kompyuter+N:kompyuter NOUN_C; ! computer
+isda+N:isdaʼ NOUN_V "fish" ;
+kama+N:kama NOUN_V "bed" ;
+higdaanan+N:higdaʼanan NOUN_V "bed" ;
+sanina+N:sanina NOUN_V "shirt" ;
+kompyuter+N:kompyuter NOUN_C "computer" ;
 kusina+N:kusina NOUN_V "kitchen" ;
 lalaki+v1+N:lalaki NOUN_V "man" ;
 lalaki+v2+N:lalake NOUN_V "man" ;
@@ -51,14 +51,14 @@ kwarta+N:kwarta NOUN_V "money" ;
 iring+N:iring NOUN_C "cat" ;
 !kape+N:kape NOUN_V; ! coffee
 !serbesa+N:serbesa NOUN_V; ! beer
-!supa+N:supa NOUN_V; ! couch/sofa
+supa+N:supa NOUN_V "couch|sofa" ;
 !telepono+N:telepono NOUN_V; ! telephone
 !tsaa+N:tsaʼaʼ NOUN_V; ! tea
 !ulo+N:ulo NOUN_V; ! head
 !yelo+N:yelo NOUN_V; ! ice
 amigo+N:amigo NOUN_V "friend" ;
 amiga+N:amiga NOUN_V "friend" ;
-higala+N:higala NOUN_V "friend" ;
+higala+N:higalaʼ NOUN_V "friend" ;
 sulti+N:sulti NOUN_V "talk" ;
 
 ! Nouns ending in 'n'
