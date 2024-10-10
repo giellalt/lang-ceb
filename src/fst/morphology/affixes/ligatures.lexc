@@ -1,14 +1,14 @@
 LEXICON Ligatures
  @U.Lig.V@+Lig:@U.Lig.V@%>ng   # ;
  @U.Lig.N@+Lig:@U.Lig.N@%>g    # ;
- @U.Lig.C@+Lig:@U.Lig.C@% na # ;!Can anything come after ligature? jaska 2024-08-08
+ @U.Lig.C@+Lig:@U.Lig.C@% nga # ;!Can anything come after ligature? jaska 2024-08-08
                              Cases ; ! empty entry, allows all
 
 
 !!€gt-desc: ligatures
 !!€ banyo:      banyo+N
 !!€ banyong:    banyo+N+Lig
-!!€ pagkaon:    pagkain+N
-!!€ pagkaong:   pagkain+N+Lig
+!!€ pagkaon:    pagkaon+N
+!!€ pagkaong:   pagkaon+N+Lig
 !!€ doktor:     doktor+N
 !!€ doktor nga:  doktor+N+Lig
