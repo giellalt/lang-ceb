@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-ceb)](https://github.com/giellalt/lang-ceb/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-ceb)](https://github.com/giellalt/lang-ceb/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-ceb?label=CI)](https://builds.giellalt.org/pipelines/lang-ceb/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **Cebuano language model**. 
 
